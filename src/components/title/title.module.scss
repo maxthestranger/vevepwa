@@ -1,0 +1,15 @@
+.large{
+  color: #364A63;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.medium{
+  @extend .large;
+  font-size: 29px;
+}
+
+.small{
+  @extend .large;
+  font-size: 22px;
+}

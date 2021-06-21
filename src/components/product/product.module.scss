@@ -1,0 +1,15 @@
+.product{
+  padding: 40px 43px;
+  position: relative;
+  p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+.ImgAsBg{
+  position: absolute;
+  z-index: -1;
+  border-radius: 13px;
+}

@@ -1,0 +1,29 @@
+.form{
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.input{
+  border-radius: 0 29px 29px 0;
+  border: 1px solid rgba(82, 100, 132, 0.22);
+  color: #364A63;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px 15px;
+  box-shadow: none;
+  width: 100%;
+  &:focus{
+    outline: none;
+  }
+  &::placeholder{
+    color: rgba(80, 77, 98, 0.37);
+  }
+}
+
+.flag{
+  padding: 13px 21px;
+  border-radius: 29px 0 0 29px;
+  border: 1px solid rgba(82, 100, 132, 0.22);
+  border-right-color: transparent;
+}

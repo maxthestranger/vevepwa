@@ -1,0 +1,10 @@
+.center{
+  color: #65676C;
+  font-size: 18px;
+  text-align: center;
+}
+
+.left{
+  @extend .center;
+  text-align: left;
+}

@@ -1,0 +1,11 @@
+.bread{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+  div:last-child{
+    margin: auto;
+  }
+}
