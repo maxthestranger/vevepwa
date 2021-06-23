@@ -11,12 +11,14 @@ import Info from "../components/info/info";
 import Button from "../components/button/button";
 import BreadCrumb from "../components/breadCrumb/breadCrumb";
 import Search from "../components/search/search";
+import Product from '../components/product/product';
 
 export default function Home() {
     return (
         <div className={styles.container}>
             <Search placeholder="Search for supplier" />
             <Title title="Categories" fs="small" />
+            <Product title="Asili" />
         </div>
     )
 }

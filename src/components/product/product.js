@@ -9,7 +9,7 @@ const Product = ({title}) => {
         <div>
             <div className={styles.product}>
                 <div className={styles.ImgAsBg}>
-                    <Image src="/images/bgs/asili.png" alt="product" height={93} width={112} />
+                    <Image src="/images/products/2.jpg" alt="product" height={93} width={112} />
                 </div>
                 <p>{title}</p>
             </div>
